@@ -1,0 +1,23 @@
+bash-tek - Asteroids-style demo
+
+* GPL v3 or later. Have fun.
+
+This is a demo that shows how to setup and use tek4014 graphics mode
+in a bash terminal. It actually is the core of a lame Asteroids-style game
+that is implemented rather poorly... but gets the point of how to tek4014
+vector graphics across.
+
+The demo is broken into 3 parts:
+- static tek functions
+- abstract vector commands that manipulate drawing state
+- game code
+
+The game code uses fixed-point math for trig tables as bash doesn't have
+floating point math (hey, what gives?). The game code also includes
+a letter-command vector shape-drawing routine (which takes me way back to
+the Apple ][ shape system...).
+
+Originally this was all developed for a 100 line game contest I was having
+with myself. I got it down to 128 lines and then found friends to hang with!
+
+Cheers
